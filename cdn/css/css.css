@@ -1,0 +1,82 @@
+*{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+section p{text-align:justify;}
+
+#topo{
+	height:135px;
+	background-image:url('../img/bg_top_1px.jpg');
+}
+
+div.wrapp{
+	margin-top:-20px;
+	padding-top:20px;
+	background-image:url('../img/bg_content_1px.jpg');
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#topo div.pull-right.text-right{
+	margin-top:20px;
+	font-size:18px;
+}
+#topo div.pull-right.text-right small{
+	font-size:14px;
+}
+#topo div.pull-right.text-right p.lead{
+	font-size:28px;
+}
+#topo div.pull-right.text-right .fa{
+	font-size:18px;
+}
+
+#map{
+	width:1020px;
+	height:600px;
+	
+}
+
+#localizacao iframe{
+	border-radius:5px;
+}
+
+.fa{
+	color:#A10407;
+}
+
+ul.nav.nav-pills.pull-right{
+	font-size:14px;
+}
+
+footer{margin:0 !important;}
+
+#servicos ul.marcas{
+	list-style:none;
+}
+	
+#servicos ul.marcas li{
+	margin-top:40px;
+	display: table;
+}
+#servicos ul.marcas li p{
+	display:inline-block;
+	font-size:14px;
+	width:720px;
+	padding:5px;
+	padding-left:30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+hr.chanfer{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #fff;
+}
+
+.btn-cadori{
+	color: #fff;
+	background-color: #302090;
+	border-color: #281b7c;
+}
+.btn-cadori:hover{color: #fff;}
